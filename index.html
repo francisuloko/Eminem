@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>Tribute - Eminem</title>
 </head>
@@ -11,7 +12,7 @@
     <main id="main">
         <section id="banner-section">
             <h1 id="title">Marshall Bruce Mathers III</h1>
-            <p id="description">Eminem</p>
+            <h2 id="description"><i class="fa fa-microphone" aria-hidden="true"></i> Eminem</h2>
             <div id="img-div">
                 <img src="https://www.rollingstone.com/wp-content/uploads/2020/01/eminem-review.jpg" alt="Eminem" id="image">
                 <p id="img-caption">The Greatest Rapper of All Times</p>
@@ -21,16 +22,23 @@
             <div id="tribute-info">
                 <!-- Textual content describing the subject of the tribute page. -->
                 <h2>Timeline</h2>
-                <ul>
-                    <li>
-                        <p><strong>Year - </strong>Event</p>
-                    </li>
-                </ul>
+                <div id="events">
+                    <ul>
+                        <li>
+                            <p><strong>Year - </strong>Event</p>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div>
-                <a id="tribute-link" href="#" target="_blank">wiki</a>
-            </div>
+            <p>Follow this links to know more <a id="tribute-link" href="#" target="_blank">About Eminem</a></p>
         </section>
+        <footer id="footer">
+            <div id="social-icons">
+                <a href="https://www.instagram.com/eminem/" class="fa fa-instagram"></a>
+                <a href="https://twitter.com/eminem" class="fa fa-twitter"></a>
+                <i><a href="#" class="fa fa-phone"></a></i>
+            </div>
+        </footer>
     </main>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
