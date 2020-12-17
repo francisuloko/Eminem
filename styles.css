@@ -42,11 +42,15 @@ img {
 }
 
 #banner-section h1 {
-    font-size: 1.7rem;
-
+    font-size: 1.5rem;
 }
-#description, #img-caption, #dob {
+#dob {
+    font-size: 0.9rem;    
+    padding: 10px;
+}
+#description, #img-caption {
     text-transform: capitalize;
+    font-size: 1.2rem;
     padding: 10px;
 }
 #social-icons {
@@ -59,7 +63,7 @@ img {
     margin: 0;
 }
 #img-caption {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     padding: 10px;
 }
 
