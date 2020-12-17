@@ -1,18 +1,64 @@
 /* Global styles
 ///////////////////////////// */
 
-html, body {
-    width: 100%;
-    background-color: #f7f7f7;
-    color: #333;
+body {
+    background-color: #333;
+    color: #aaa;
     margin: 0;
+    padding: 40px 20px;
 }
 #main {
+    background-color: #000;
     padding: 20px;
+    border-radius: 10px;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 10px auto;
 }
 
-img {
-    max-width: 100%;
-    height: 100%;
-    margin: auto;
+p {
+    padding: 10px;
+    line-height: 45px;
+}
+
+
+/* Banner Section
+////////////////////////// */
+
+#banner-section {
+    padding: 15px;
+    text-align: center;
+}
+
+#description {
+    text-transform: capitalize;
+    animation: eminem 3s 2s forwards;
+}
+
+@keyframes eminem {
+    25% {
+        font-size: 1.5rem;
+    }
+}
+
+#img-div {
+    background-color: #111;
+    padding: 0px;
+    border-radius: 12px;
+}
+
+#img-caption {
+    color: ;
+}
+
+/* Timeline Section
+////////////////////////////////*/
+
+#timeline {
+    background-color: #111;
+    color: #aaa;
+    margin: 5px auto;
 }
