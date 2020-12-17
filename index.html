@@ -12,10 +12,13 @@
     <main id="main">
         <section id="banner-section">
             <h1 id="title">Marshall Bruce Mathers III</h1>
-            <h2 id="description"><i class="fa fa-microphone" aria-hidden="true"></i> Eminem</h2>
+            <h2 id="description">Eminem</h2>
             <div id="img-div">
                 <img src="https://www.rollingstone.com/wp-content/uploads/2020/01/eminem-review.jpg" alt="Eminem" id="image">
-                <p id="img-caption">The Greatest Rapper of All Times</p>
+                <p id="img-caption" title="G.O.A.T">The Greatest Rapper of All Times</p>
+                
+                <!-- Use javaScript to calculate age -->
+                <p id="dob"></p>
             </div>
         </section>
         <section id="timeline">
@@ -25,21 +28,38 @@
                 <div id="events">
                     <ul>
                         <li>
-                            <p><strong>Year - </strong>Event</p>
-                        </li>
+                            <p><strong>Year - </strong>Event</p></li>
+                        <li>
+                            <p><strong>Year - </strong>Event</p></li>
+                        <li>
+                            <p><strong>Year - </strong>Event</p></li>
+
                     </ul>
                 </div>
             </div>
-            <p>Follow this links to know more <a id="tribute-link" href="#" target="_blank">About Eminem</a></p>
+            <p>Learn more <a id="tribute-link" href="#" target="_blank">About Eminem</a></p>
         </section>
         <footer id="footer">
+            <!-- <div id="discography">
+                <div><img id="label" src="https://www.rollingstone.com/wp-content/uploads/2020/01/eminem-review.jpg" alt="Eminem"></div>
+                <div id="albums">Albums</div>
+                <div id="hit-songs">Hit Songs</div>
+            </div> -->
             <div id="social-icons">
                 <a href="https://www.instagram.com/eminem/" class="fa fa-instagram"></a>
                 <a href="https://twitter.com/eminem" class="fa fa-twitter"></a>
-                <i><a href="#" class="fa fa-phone"></a></i>
+                <a href="#" class="fa fa-microphone"></a>
             </div>
         </footer>
     </main>
+    <script>
+        // Calculate Eminem's age
+        let year = 1972;
+        let d = new Date();
+        let today = d.getFullYear();
+        let age = today - year;
+        document.getElementById("dob").innerHTML = "17 October 1972 (Age " + age +" years)";
+    </script>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>
