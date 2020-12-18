@@ -10,15 +10,15 @@
 body {
     background-color: #333;
     color: #aaa;
-    padding: 10px;
+    padding: 0px;
 }
 a {
     color: #aaa;
 }
 #main {
     background-color: #000;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 10px;
+    /* border-radius: 10px; */
 }
 section {
     margin: 10px 0px;
@@ -28,10 +28,10 @@ img {
     max-width: 100%;
     height: auto;
 }
-#timeline, #img-div {
+#timeline, #img-div, #footer {
     background-color: #111;
     color: #aaa;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 
