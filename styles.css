@@ -81,8 +81,7 @@ img {
 
 #events ul {
     max-width: 60%;
-    margin: 0;
-    padding: 10px;
+    margin: 0 auto;
 }
 
 /* Footer Section
