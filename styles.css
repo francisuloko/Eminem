@@ -79,6 +79,12 @@ img {
     padding: 10px;
 }
 
+#events ul {
+    max-width: 60%;
+    margin: 0;
+    padding: 10px;
+}
+
 /* Footer Section
 -------------------------------*/
 footer {
