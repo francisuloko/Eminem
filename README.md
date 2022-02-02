@@ -1,2 +1,3 @@
-# freeCodeCamp-TributePage
-freeCodeCamp Project to build a responsive Tribute Page
+# Eminem - Tribute Page
+
+> A responsive website built as a tribute to Eminem
