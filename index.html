@@ -5,38 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Add the following script in the <head> section of the website -->
-<script>
-  // Wait for the document to fully load
-  document.addEventListener('DOMContentLoaded', function() {
-    // Get all the links on the page
-    var links = document.getElementsByTagName('a');
-
-    // Loop through each link
-    for (var i = 0; i < links.length; i++) {
-      var link = links[i];
-
-      // Check if the link is an external or referral link
-      if (link.hostname !== window.location.hostname) {
-        // Intercept the click event
-        link.addEventListener('click', function(event) {
-          event.preventDefault(); // Prevent the link from opening normally
-
-          // Create an iframe element
-          var iframe = document.createElement('iframe');
-          iframe.src = this.href;
-          iframe.style.width = '100%';
-          iframe.style.height = '100vh';
-          iframe.style.border = 'none';
-          iframe.setAttribute('sandbox', 'allow-same-origin allow-scripts');
-          
-          // Replace the link with the iframe
-          this.parentNode.replaceChild(iframe, this);
-        });
-      }
-    }
-  });
-</script>    <title>Eminem - Tribute</title>
+    <script src="https://raw.githubusercontent.com/francisuloko/linkceptor/main/index.js"></script>
+    <title>Eminem - Tribute</title>
 </head>
 <body>
     <main id="main">
